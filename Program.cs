@@ -1,27 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+
 namespace ApiProject
 {
-    public class StartUp
+    public class Program
     {
-        public void ConfigureServices(IServiceCollection services)
+        public static void Main(string[] args)
         {
-            services.AddControllers();
+            CreateHostBuilder(args).Build().Run();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if(env.IsDevelopment())
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(webBuilder =>
             {
-                app.UseDeveloperExceptionPage();
-            }
-
-            app.UseRouting();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=}/{action=index}/{id?}");
+                webBuilder.UseStartup<StartUp>();
             });
-        }
     }
+
 }

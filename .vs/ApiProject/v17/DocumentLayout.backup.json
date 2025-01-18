@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\app.db||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:app.db||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\apiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:apiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,31 +42,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "app.db",
-              "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\app.db",
-              "RelativeDocumentMoniker": "app.db",
-              "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\app.db",
-              "RelativeToolTip": "app.db",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-18T16:00:26.63Z"
+              "DocumentIndex": 1,
+              "Title": "ApiProject",
+              "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\ApiProject.csproj",
+              "RelativeDocumentMoniker": "ApiProject.csproj",
+              "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\ApiProject.csproj",
+              "RelativeToolTip": "ApiProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-18T16:51:56.679Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\StartUp.cs",
+              "RelativeDocumentMoniker": "StartUp.cs",
+              "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\StartUp.cs",
+              "RelativeToolTip": "StartUp.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:49:08.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:24:39.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "Controllers\\ToDoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:22:52.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Todo.cs",
               "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Models\\Todo.cs",
               "RelativeDocumentMoniker": "Models\\Todo.cs",
               "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Models\\Todo.cs",
               "RelativeToolTip": "Models\\Todo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T15:58:23.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
