@@ -1,6 +1,27 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+namespace ApiProject
+{
+    public class StartUp
+    {
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllers();
+        }
 
-app.MapGet("/", () => "Hello World!");
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if(env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
-app.Run();
+            app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=}/{action=index}/{id?}");
+            });
+        }
+    }
+}
