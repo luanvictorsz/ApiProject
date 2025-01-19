@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Controllers\\ToDoController.cs",
               "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Controllers\\ToDoController.cs",
               "RelativeToolTip": "Controllers\\ToDoController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowBEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T14:08:39.28Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "StartUp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:49:08.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T16:49:08.031Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:24:39.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T16:24:39.301Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:34:20.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T15:34:20.905Z"
             }
           ]
         }

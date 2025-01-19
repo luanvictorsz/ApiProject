@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using ApiProject.Data;
-using ApiProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,6 +18,21 @@ namespace ApiProject.Controllers
                 .AsNoTracking()
                 .ToListAsync();
             return Ok(todos);
+        }
+
+        [HttpGet]
+        [Route("todos/{id}")]
+        public async Task<IActionResult> GetByIdAsync(
+            [FromServices] AppDbContext context,
+            [FromRoute] int id)
+        {
+            var todo = await context
+                .Todos
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            //condicional se não encontrar o item
+            return todo == null ? NotFound() : Ok(todo);
         }
     }
 }
