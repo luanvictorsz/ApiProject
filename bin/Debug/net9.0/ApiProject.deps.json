@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore.Design": "9.0.1",
-          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.1"
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.1",
+          "Migrations": "1.0.1"
         },
         "runtime": {
           "ApiProject.dll": {}
@@ -21,6 +22,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "log4net/2.0.5": {
+        "runtime": {
+          "lib/net45-full/log4net.dll": {
+            "assemblyVersion": "1.2.15.0",
+            "fileVersion": "1.2.15.0"
           }
         }
       },
@@ -529,6 +538,17 @@
           }
         }
       },
+      "Migrations/1.0.1": {
+        "dependencies": {
+          "log4net": "2.0.5"
+        },
+        "runtime": {
+          "lib/net40-Client/Migrations.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
       "Mono.TextTemplating/3.0.0": {
         "dependencies": {
           "System.CodeDom": "6.0.0"
@@ -784,6 +804,13 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
+    "log4net/2.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AEqPZz+v+OikfnR2SqRVdQPnSaLq5y9Iz1CfRQZ9kTKPYCXHG6zYmDHb7wJotICpDLMr/JqokyjiqKAjUKp0ng==",
+      "path": "log4net/2.0.5",
+      "hashPath": "log4net.2.0.5.nupkg.sha512"
+    },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -972,6 +999,13 @@
       "sha512": "sha512-bHtTesA4lrSGD1ZUaMIx6frU3wyy0vYtTa/hM6gGQu5QNrydObv8T5COiGUWsisflAfmsaFOe9Xvw5NSO99z0g==",
       "path": "microsoft.extensions.primitives/9.0.1",
       "hashPath": "microsoft.extensions.primitives.9.0.1.nupkg.sha512"
+    },
+    "Migrations/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-udBzfD8ALn1uc1cOfk+inSO++xliThW+llQ0URIYxVDtjiTSp2s5N0l81Bcy4wAlaAeJIdlX3qh+cX+GJGRatA==",
+      "path": "migrations/1.0.1",
+      "hashPath": "migrations.1.0.1.nupkg.sha512"
     },
     "Mono.TextTemplating/3.0.0": {
       "type": "package",

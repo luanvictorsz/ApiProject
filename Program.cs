@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ApiProject
 {
@@ -10,12 +11,11 @@ namespace ApiProject
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        [HttpGet]
         public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.UseStartup<StartUp>();
-            });
+        Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(webBuilder =>
+        {
+            webBuilder.UseStartup<StartUp>();
+        });
     }
-
 }
