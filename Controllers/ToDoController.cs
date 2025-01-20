@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using ApiProject.Data;
+using ApiProject.Models;
+using ApiProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -33,6 +35,35 @@ namespace ApiProject.Controllers
 
             //condicional se não encontrar o item
             return todo == null ? NotFound() : Ok(todo);
+        }
+
+        [HttpPost("todos")]
+        public async Task<IActionResult> PostAsync(
+            [FromServices]  AppDbContext context, 
+            [FromBody]      CreateToDoViewModel model) 
+        {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var todo = new Todo
+            {
+                DateTime = DateTime.Now,
+                Done = false,
+                Title = model.Title
+            };
+
+            try
+            {
+                await context.Todos.AddAsync(todo);
+                await context.SaveChangesAsync();
+                return Created($"v1/todos/{todo.Id}", todo);
+            }
+            catch(Exception)
+            {
+                return BadRequest();
+            }
         }
     }
 }

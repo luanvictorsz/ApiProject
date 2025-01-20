@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "ApiProject.Controllers.ToDoController",
+    "Method": "PostAsync",
+    "RelativePath": "v1/todos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ApiProject.ViewModels.CreateToDoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProject.Controllers.ToDoController",
     "Method": "GetByIdAsync",
     "RelativePath": "v1/todos/{id}",
     "HttpMethod": "GET",
