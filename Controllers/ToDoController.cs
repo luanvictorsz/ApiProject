@@ -97,5 +97,21 @@ namespace ApiProject.Controllers
             }
 
         }
-    }
+
+        [HttpDelete("todos/{id}")]
+        public async Task<IActionResult> DeleteAsync(
+            [FromServices] AppDbContext context,
+            [FromRoute] int id)
+            {
+                var todo = await context.Todos.FirstOrDefaultAsync(x => x.Id == id);
+
+                if (todo == null)
+                    return NotFound(new { message = "item não encontrado" });
+
+                context.Todos.Remove(todo);
+                await context.SaveChangesAsync();
+
+                return Ok(new { message = "item removido com sucesso" });
+            }
+        }
 }
