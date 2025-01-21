@@ -40,5 +40,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProject.Controllers.ToDoController",
+    "Method": "PutAsync",
+    "RelativePath": "v1/todos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ApiProject.ViewModels.CreateToDoViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

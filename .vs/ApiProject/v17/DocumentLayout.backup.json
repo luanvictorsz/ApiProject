@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\viewmodels\\createtodoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:viewmodels\\createtodoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|c:\\users\\msprod\\desktop\\apiproject\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F90FBF-D469-43CB-AE2A-B9D0900048F1}|ApiProject.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateToDoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\ViewModels\\CreateToDoViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\CreateToDoViewModel.cs",
               "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\ViewModels\\CreateToDoViewModel.cs",
               "RelativeToolTip": "ViewModels\\CreateToDoViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T19:42:40.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Todo.cs",
               "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Models\\Todo.cs",
               "RelativeDocumentMoniker": "Models\\Todo.cs",
@@ -63,25 +63,24 @@
               "RelativeToolTip": "Models\\Todo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T14:28:33.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T14:28:33.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ToDoController.cs",
               "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Controllers\\ToDoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ToDoController.cs",
               "ToolTip": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Controllers\\ToDoController.cs",
               "RelativeToolTip": "Controllers\\ToDoController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T14:08:39.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StartUp.cs",
               "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\StartUp.cs",
               "RelativeDocumentMoniker": "StartUp.cs",
@@ -89,12 +88,11 @@
               "RelativeToolTip": "StartUp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:49:08.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T16:49:08.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -102,12 +100,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:24:39.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T16:24:39.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MSPROD\\Desktop\\ApiProject\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:34:20.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T15:34:20.905Z"
             }
           ]
         }

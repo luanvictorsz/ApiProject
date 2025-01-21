@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using ApiProject.Data;
+﻿using ApiProject.Data;
 using ApiProject.Models;
 using ApiProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -64,6 +63,39 @@ namespace ApiProject.Controllers
             {
                 return BadRequest();
             }
+        }
+
+        [HttpPut("todos/{id}")]
+        public async Task<IActionResult> PutAsync(
+            [FromServices] AppDbContext context,
+            [FromBody] CreateToDoViewModel model,
+            [FromRoute] int id) 
+        { 
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var todo = await context.Todos.FirstOrDefaultAsync(x => x.Id == id);
+
+            if(todo == null)
+            {
+                NotFound();
+            }
+
+            try
+            {
+                todo.Title = model.Title;
+
+                context.Todos.Update(todo);
+                await context.SaveChangesAsync();
+                return Ok(todo);
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+
         }
     }
 }
